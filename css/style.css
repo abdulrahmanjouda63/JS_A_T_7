@@ -11,7 +11,7 @@ body {
 
 ::selection {
   background-color: #eee;
-  color: #206a84;
+  color: #20698479;
 }
 
 .loadingScreen {
@@ -177,7 +177,7 @@ aside {
   bottom: 0;
   font-size: 25px;
   .sideBar {
-    background-image: linear-gradient(135deg, #000, #206a84);
+    background-image: linear-gradient(135deg, #000, #2069844d);
     height: 100%;
     width: 0;
     display: grid;
@@ -200,6 +200,7 @@ aside {
       margin: 7px;
       height: 50px;
       cursor: pointer;
+      background-color: #2069844d;
     }
   }
   i {
@@ -217,7 +218,7 @@ aside {
 }
 
 #home {
-  background-image:linear-gradient(135deg, #000, rgba(100, 109, 150, 0.4)),url("../img/events-heavenly-header.jpg");
+  background:linear-gradient(135deg, #000, #2069844d),url("../img/events-heavenly-header.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -248,7 +249,7 @@ aside {
     cursor: pointer;
   }
   p {
-    background-image: linear-gradient(135deg, #000, #206a84);
+    background-image: linear-gradient(135deg, #000, #206984);
     margin: 0;
     padding: 15px;
     display: none;
@@ -280,7 +281,7 @@ aside {
 #duration {
   width: 100%;
   min-height: 70vh;
-  background-image: linear-gradient(135deg, #000,rgba(150,120,100,0.5)),url(../img/invitation-2508607__340.jpg);
+  background-image: linear-gradient(135deg, #000,#20698473),url(../img/invitation-2508607__340.jpg);
   background-size: cover;
   color: #eee;
   display: flex;
@@ -298,7 +299,7 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter:blur;
+  background-color: #2069844d;
 }
 .countdown .date {
   font-size: 80px;

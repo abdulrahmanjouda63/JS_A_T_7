@@ -77,7 +77,7 @@ $("aside img").on("click", function () {
 
 //count down
 $(() => {
-  let partyDate = new Date("Octobar 1, 2024 23:59:59").getTime();
+  let partyDate = new Date("August 1, 2024 23:59:59").getTime();
 
   let countdownInterval = setInterval(() => {
     let currentDate = new Date().getTime();
@@ -104,9 +104,9 @@ $(() => {
 });
 
 //textarea
-$(".submit").on("click", function (e) {
+/*$(".submit").on("click", function (e) {
   e.preventDefault();
-});
+});*/
 
 const maxLength = 100;
 const massage = $("#msg");
